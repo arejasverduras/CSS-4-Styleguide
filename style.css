@@ -1,8 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 84px;
+    text-transform: uppercase;
+    
+}
+
+h2 {
+   text-align: center;
+    padding: 20px;
+    font-weight: normal;
+    opacity: 0.7;
+}
+
+h3 {
+    font-size: 64px;
+    text-align: center;
+}
+
+article {
+    min-height: 400px;
+    
+    width: 100%;
+    text-align: center;
+    padding: 10% 0;
 }
 
 /* Header Styles */
@@ -54,31 +87,8 @@ main {
     padding: 20%;
 }
 
-h1 {
-    text-align: center;
-    font-size: 84px;
-    text-transform: uppercase;
-    
-}
 
-h2 {
-   text-align: center;
-    padding: 20px;
-    font-weight: normal;
-    opacity: 0.7;
-}
-
-h3 {
-    font-size: 64px;
-    text-align: center;
-}
-
-article {
-    min-height: 400px;
-    max-height: 600px;
-    width: 100%;
-    text-align: center;
-}
+/* Color section */
 
 .colorcontainer {
     width: 60%;
@@ -115,3 +125,91 @@ article {
     margin: 10px 0;
 }
 
+/* Fonts section */
+
+#fonts {
+    background-color: mediumaquamarine;
+    font-size: 21px;
+    
+}
+
+.fontscontainer {
+    width: 60%;
+    margin: 10% auto;
+}
+
+.FontblockFull {
+    width: 100%;
+    padding: 2%;
+
+}
+
+.FontblockHalve {
+    display: inline-block;
+    width: 50%;
+    padding: 2%;
+   
+}
+
+.font1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.font2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.font3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.style1 {
+    font-weight: normal;
+}
+
+.style2 {
+    font-weight: bold;
+}
+
+.style3 {
+    font-style: italic;
+}
+
+.fontscontainer p, h4 {
+    text-align: left;
+    margin: 8px 0;
+    opacity: 0.7;
+}
+
+.fontscontainer h4 {
+    text-decoration: underline;
+}
+
+/* Text Styles Section */
+
+#text-styles {
+    background-color: burlywood;
+}
+
+.stylescontainer {
+    width: 60%;
+    margin: 10% auto;
+}
+
+.styleblock {
+    display: inline-block;
+    width: 32%;
+    text-align: left;
+}
+
+.styleblock h1, .styleblock h2 {
+    text-align: left;
+    padding-left: 0;
+}
+
+.styleblock ul {
+    padding-left: 20px;
+}
+
+/* Footer */
