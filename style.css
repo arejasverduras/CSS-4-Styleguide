@@ -23,6 +23,7 @@ h2 {
     padding: 20px;
     font-weight: normal;
     opacity: 0.7;
+    font-family: 'Raleway', sans-serif;
 }
 
 h3 {
@@ -58,6 +59,12 @@ header {
     padding: 26px;
 }
 
+a {
+    text-decoration: none;
+    color: darkgrey;
+    font-family: 'Raleway', sans-serif;
+}
+
 nav {
     width: 33%;
     text-align: right;
@@ -68,8 +75,6 @@ nav {
 nav a{
     display: inline-block;
     height: 70px;
-    text-decoration: none;
-    color: darkgrey;
     padding: 26px;
 }
 
@@ -135,7 +140,7 @@ main {
 
 .fontscontainer {
     width: 60%;
-    margin: 10% auto;
+    margin: 6% auto;
 }
 
 .FontblockFull {
@@ -220,6 +225,7 @@ footer {
     position: relative;
     top: 70px;
     padding: 20px;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
     background-color: tomato;
     color: white;
